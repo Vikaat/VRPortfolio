@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const skills = [
   'Adobe Creative Suite',
   'Community Outreach',
-  'Convolutional Neural Networks',
+  'Python',
   'Educational Services',
   'Java',
   'Linux',
@@ -13,7 +13,8 @@ const skills = [
   'Robotics',
   'Team Management',
   'Technical Leadership',
-  'Web Design'
+  'Web Design',
+  'Data Programming'
 ];
 
 export default function SkillsTicker({ theme }) {

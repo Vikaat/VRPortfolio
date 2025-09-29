@@ -22,7 +22,7 @@ export default function Hero({ theme }) {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Srivikaat Ravi — Aspiring Electrical &amp; Computer Engineer
+          Srivikaat Ravi — Aspiring Computer Engineer
         </motion.h1>
 
         <motion.p

@@ -9,7 +9,7 @@ export default function Education() {
         <ul className="list-disc pl-5">
           <li>Olympia High School, High School Diploma (’25)</li>
           <li>SPSCC, A.A. in Computer Science (’25)</li>
-          <li>Univeristy of Washington, Pre Sciences ('29)</li>
+          <li>Univeristy of Washington, Intended Major: Computer Science ('29)</li>
         </ul>
       </div>
       <div>
