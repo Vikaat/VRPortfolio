@@ -22,16 +22,18 @@ export default function AboutMe({ theme }) {
           `}
         >
           <p>
-            I’m a Running Start student at SPSCC pursuing an A.A. in Computer Science
-            and an aspiring Electrical & Computer Engineer. Over the past three
-            years, I’ve led robotics teams, founded STEM outreach programs, and
-            completed a Headstarter AI Fellowship.
+            I'm a Computer Science student at the University of Washington's Paul G. 
+            Allen School of Computer Science & Engineering with plans to minor in Data Science.
+            My interests span both data science and software engineering. I love to work on projects that 
+            bring together complex data analysis and robust software, whether it's through modeling data
+            for visualizations, developing full-stack web applications, or building backend databse systems.
           </p>
           <p>
-            As captain of FRC Team 4450, I restructured leadership and ran rookie
-            workshops; as founder of FIRST STEP ORG, I launched six FLL teams and
-            mentored over 60 students; and through my fellowship, I mastered
-            HTML, CSS, JavaScript, and Git workflows.
+            My drive for collaborative problem-solving stems from my four years in competitive robotics, 
+            where I served as Captain and Lead Software & Electrical Engineer of FRC Team 4450, leading 
+            technical initiatives and running workshops. Today, I'm always open to connecting with others 
+            in the community to exchange ideas, build together, and explore new opportunities. 
+            Feel free to reach out to me on LinkedIn!
           </p>
         </div>
 

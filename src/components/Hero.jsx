@@ -22,7 +22,7 @@ export default function Hero({ theme }) {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Srivikaat Ravi — Aspiring Computer Engineer
+          Srivikaat Ravi — Aspiring Software Engineer & Data Scientist
         </motion.h1>
 
         <motion.p
@@ -34,9 +34,9 @@ export default function Hero({ theme }) {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-          “3 years of experience in leading and founding STEM initiatives.
-          Successfully organized team management for FRC Team 4450.
-          Founded FIRST STEP ORG, reaching 60+ students in two years.”
+          UW Computer Science student bridging 3 years of competitive 
+          robotics leadership with hands-on project experience in 
+          software development and data programming.
         </motion.p>
 
         <div className="mt-6 flex justify-center md:justify-start gap-4">
