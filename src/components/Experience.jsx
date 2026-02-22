@@ -3,54 +3,34 @@ import React from 'react';
 
 const items = [
   {
-    role: 'Team Captain, Olympia Robotics Federation (FRC Team 4450)',
-    period: 'June 2024 – Present',
-    details: 'One of the captains of the First Robotics Competition Team, the Olympia Robotics Federation Team 4450.'
+    role: 'Data Scientist, The Boring Club at UW',
+    period: 'September 2025 – Present',
+    details: 'Investigating practical computer vision pipelines and researching OpenCV methods for real-time video preprocessing and noise reduction.'
   },
   {
-    role: 'Lead Programmer, Olympia Robotics Federation (FRC Team 4450)',
-    period: 'June 2024 – Present',
-    details: 'Lead programmer of FRC Team #4450’s 2025 Reefscape season robot: USS Leviathan.'
+    role: 'Web Developer, The Boring Club at UW',
+    period: 'February 2026 – Present',
+    details: 'Engineering front-end updates using HTML, CSS, and JavaScript while streamlining development workflows through GitHub Issues.'
   },
   {
-    role: 'Member, Olympia Robotics Federation (FRC Team 4450)',
-    period: 'September 2021 – Present',
-    details: ''
-  },
-  {
-    role: 'Chief Communications Officer (CCO), Olympia Robotics Federation (FRC Team 4450)',
-    period: 'May 2023 – June 2024',
-    details: 'As CCO, managed official paperwork, administrative tasks, and strengthened communication between team members, parents, and mentors.'
-  },
-  {
-    role: 'Electrical Lead, Olympia Robotics Federation (FRC Team 4450)',
-    period: 'May 2023 – June 2024',
-    details: "Oversaw electrical engineering for ORF 4450’s 2024 season robot “USS ProtoStar,” including drivetrain construction and motor controller wiring."
-  },
-  {
-    role: 'Head FLL Program Manager, FIRST STEP ORG',
-    period: 'August 2023 – Present',
-    details: 'Spearheaded the FLL program at local middle schools, reviving teams in 4 of 5 district schools and enrolling 80+ students.'
-  },
-  {
-    role: 'Founder, FIRST STEP ORG',
+    role: 'Founder, First Step Org',
     period: 'June 2023 – Present',
-    details: 'Founded a nonprofit to bridge the gap between education and STEM by offering resources, guidance, and support to local students.'
+    details: 'Founded and led a nonprofit expanding student access to STEM and FIRST Lego League programs through mentorship and resource coordination.'
   },
   {
-    role: 'Software Engineering Fellow, Headstarter AI',
-    period: 'July 2024 – September 2024',
-    details: ''
+    role: 'Team Captain, Olympia Robotics Federation (FRC Team 4450)',
+    period: 'June 2024 – June 2025',
+    details: 'Led a 35+ member team through championships, restructured sub-team leadership, and improved robot design timelines by 2 weeks.'
   },
   {
-    role: 'Secretary, OlyRobots (FTC)',
-    period: 'September 2023 – June 2024',
-    details: 'As one of four ASB club officers, managed part order approvals, meeting minutes, and club-wide communications.'
+    role: 'Control Systems Programmer, Olympia Robotics Federation (FRC Team 4450)',
+    period: 'February 2024 – August 2025',
+    details: 'Designed a Java state-machine architecture for the USS Leviathan, coordinating 10+ motors and 8 pneumatic pistons for competition.'
   },
   {
-    role: 'Secretary, OHS Aerospace Club',
-    period: 'March 2023 – June 2024',
-    details: 'Founding officer responsible for meeting minutes and member communications; supported club mission to design, build, and fly model rockets.'
+    role: 'Lead Electrical Engineer, Olympia Robotics Federation (FRC Team 4450)',
+    period: 'May 2023 – June 2024',
+    details: 'Designed and wired electrical layouts for USS ProtoStar and USS Leviathan, achieving 99% uptime across 84+ matches.'
   }
 ];
 
@@ -65,7 +45,7 @@ export default function Experience() {
             <span className="text-sm text-gray-600 dark:text-gray-400">
               {exp.period}
             </span>
-            {exp.details && <p className="mt-1">{exp.details}</p>}
+            {exp.details && <p className="mt-1 text-gray-700 dark:text-gray-300">{exp.details}</p>}
           </li>
         ))}
       </ul>

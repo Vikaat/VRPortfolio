@@ -14,7 +14,10 @@ const skills = [
   'Team Management',
   'Technical Leadership',
   'Web Design',
-  'Data Programming'
+  'Data Programming',
+  'SQLite',
+  'D3.js',
+  'Vega-Lite'
 ];
 
 export default function SkillsTicker({ theme }) {
@@ -25,7 +28,7 @@ export default function SkillsTicker({ theme }) {
   // common item styling
   const itemClass = `
     inline-block uppercase text-2xl md:text-3xl
-    font-bold tracking-wider
+    font-bold tracking-wider px-6
     ${theme === 'dark' ? 'text-yellow-200' : 'text-blue-700'}
   `;
 
@@ -37,14 +40,14 @@ export default function SkillsTicker({ theme }) {
           ${theme === 'dark' ? 'text-yellow-400' : 'text-blue-800'}
         `}
       >
-        Technical Skills
+        Skills & Expertise
       </h2>
 
       <div className="space-y-4">
         {/* Top row: scrolls leftwards */}
         <div className="overflow-hidden whitespace-nowrap">
           <motion.div
-            className="inline-flex space-x-12"
+            className="inline-flex"
             animate={{ x: ['0%', '-50%'] }}
             transition={{
               x: {
@@ -56,7 +59,7 @@ export default function SkillsTicker({ theme }) {
             }}
           >
             {looped.map((skill, i) => (
-              <span key={i} className={itemClass}>
+              <span key={`top-${i}`} className={itemClass}>
                 {skill}
               </span>
             ))}
@@ -66,7 +69,7 @@ export default function SkillsTicker({ theme }) {
         {/* Bottom row: scrolls rightwards */}
         <div className="overflow-hidden whitespace-nowrap">
           <motion.div
-            className="inline-flex space-x-12"
+            className="inline-flex"
             animate={{ x: ['-50%', '0%'] }}
             transition={{
               x: {
@@ -78,7 +81,7 @@ export default function SkillsTicker({ theme }) {
             }}
           >
             {looped.map((skill, i) => (
-              <span key={i + looped.length} className={itemClass}>
+              <span key={`bottom-${i}`} className={itemClass}>
                 {skill}
               </span>
             ))}
