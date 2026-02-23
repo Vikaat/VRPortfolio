@@ -35,7 +35,10 @@ export default function Education() {
       <div>
         <h3 className="font-semibold text-lg">Certifications</h3>
         <ul className="list-disc pl-5 mt-2 space-y-1">
-          <li className="text-sm">AWS Academy Graduate – Data Engineering</li>
+          <li className="text-sm">AWS Academy Graduate – Data Engineering (06/2024)</li>
+          <li className="text-sm">AWS Cloud Practicioner (02/2024)</li>
+          <li className="text-sm">Inspirit AI Scholars Program (08/2023)</li>
+          <li className="text-sm">Seal of Biliteracy - Tamil (04/2022)</li>
         </ul>
       </div>
     </section>
