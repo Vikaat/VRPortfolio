@@ -34,7 +34,7 @@ export default function Hero({ theme }) {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-          UW Computer Science student bridging 4 years of competitive 
+          UW Computer Science student bridging 3 years of competitive 
           robotics leadership with hands-on project experience in 
           software development and data programming.
         </motion.p>
